@@ -41,7 +41,7 @@ class Suzuki:
         monami.database.close()
 
 
-''' PSQL Query to display the top three articles '''
+# PSQL Query to display the top three articles
 
 capeta_1 = '    ** Most popular top 3 articles of all time ** '
 minamoto_articles = (
@@ -51,7 +51,7 @@ minamoto_articles = (
     "WHERE log.status like '%200%' group by "
     "articles.title, log.path ORDER BY popular DESC LIMIT 3")
 
-''' PSQL Query to display the top authors '''
+# PSQL Query to display the top authors
 
 capeta_2 = '   ** Most popular authors of all time ** '
 minamoto_authors = """
@@ -65,7 +65,7 @@ SELECT authors.name, count(*) AS views
 
 """
 
-''' Query to display the day Variable1s which lead to errors more than 1% '''
+# Query to display the day Variable1s which lead to errors more than 1%
 
 capeta_3 = '    ** Days which lead to errors more than 1% ** '
 minamoto_errors = """
