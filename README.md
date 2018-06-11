@@ -55,4 +55,4 @@ Then retrieving the data from the databse for the questiones listed below.
 * Run your python file by python filename.py .
 
 ## output
-![surya2.png](https://github.com/dasarisurya/Log-analysis/blob/master/surya2.png)
+![surya2.png](https://github.com/dasarisurya/Log Analysis 2/blob/master/output.png)
